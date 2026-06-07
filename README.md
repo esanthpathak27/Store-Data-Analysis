@@ -1,4 +1,4 @@
-# Vrinda Store Annual Sales Analysis (2022)
+# Store Annual Sales Analysis
 
 An end-to-end data analytics project using **Microsoft Excel** to analyze annual retail sales data, uncover customer demographics, and build an interactive dashboard to drive strategic business growth.
 
@@ -9,7 +9,7 @@ An end-to-end data analytics project using **Microsoft Excel** to analyze annual
 ---
 
 ## 🎯 Business Objective
-Vrinda Store, an online clothing retailer operating across India, wanted to analyze its performance data from 2022 to understand consumer behavior and execution flaws. The primary goal was to deliver data-driven strategies to scale revenue and optimize marketing channels for the upcoming fiscal year (2023).
+An online clothing retailer operating across India, wanted to analyze its performance data from 2025 to understand consumer behavior and execution flaws. The primary goal was to deliver data-driven strategies to scale revenue and optimize marketing channels for the upcoming fiscal year.
 
 ## 🛠️ Data Analytics Lifecycle Followed
 
@@ -19,7 +19,7 @@ Vrinda Store, an online clothing retailer operating across India, wanted to anal
 * **Data Hygiene:** Rectified formatting in the `Quantity` column to ensure numerical uniformity for calculation accuracy.
 
 ### 2. Feature Engineering (Data Processing)
-* **Demographic Bucketing:** Created a dynamic `Age Group` attribute utilizing nested `IF` logic to partition buyers into logical groups: *Senior* (>=50), *Adult* (30-49), and *Teenager* (<30).
+* **Demographic Bucketing:** Created a dynamic `Age Group` attribute utilizing nested `IF` logic to partition buyers into logical groups: *Senior* (>=50), *Adult* (20-49), and *Teenager* (<20).
 * **Temporal Extraction:** Isolated the `Month` metric from raw timestamps using the `TEXT(cell, "mmm")` function to enable granular month-over-month trend analysis.
 
 ### 3. Data Visualization & Dashboard Design
@@ -33,7 +33,7 @@ Vrinda Store, an online clothing retailer operating across India, wanted to anal
 ---
 
 ## 💡 Key Business Insights Discovered
-1. **Core Spending Demographic:** **Adult Women (30-49 years old)** represent the single highest-value segment, making up roughly **35%** of overall annual purchases.
+1. **Core Spending Demographic:** **Adult Women (20-49 years old)** represent the single highest-value segment, making up roughly **50%** of overall annual purchases.
 2. **Channel Dominance:** Three key marketplaces—**Amazon, Flipkart, and Myntra**—act as the business's foundational pipelines, securing nearly **80%** of total order volume.
 3. **Geographic Hotspots:** The top 3 performing regions contributing the highest revenue share are **Maharashtra, Karnataka, and Uttar Pradesh**.
 4. **Seasonal Peak:** **March** stood out as the absolute peak season for both overall revenue generation and transactional count.
