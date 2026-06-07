@@ -4,7 +4,8 @@ An end-to-end data analytics project using **Microsoft Excel** to analyze annual
 
 ## 📊 The Interactive Dashboard
 
-Dashboard_Store_data_analysis.jpeg
+![Vrinda Store Sales Dashboard](Dashboard_Store_data_analysis.jpeg)
+
 ---
 
 ## 🎯 Business Objective
